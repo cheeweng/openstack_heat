@@ -3,12 +3,12 @@
   hosts: all
   remote_user: root
 - 
-  auth: 
+  name: Authentication to OpenStack
+  os_auth: 
     auth_url: "http://10.69.6.86:5000/v2.0"
     password: demo123
     project_name: demo
     username: demo
-  name: "Authenticate to CLoud"
 - 
   name: "Create a demo NFVi Stack"
   os_stack: 
