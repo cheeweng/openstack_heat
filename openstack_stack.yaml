@@ -1,13 +1,13 @@
 ---
 - hosts: all
   remote_user: root
-
+  - os_auth:
     auth:
       auth_url: http://10.69.6.86:5000/v2.0
       username: demo
       password: demo123
       project_name: demo
 
-  os_stack:
+  - os_stack:
     name: "{{ demo }}"
     template: "/home/heat-admin/stack_template_xl_demo_redhat.yaml"
