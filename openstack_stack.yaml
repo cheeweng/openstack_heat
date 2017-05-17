@@ -13,6 +13,6 @@
 
       - name: Launch a Heat stack
         os_stack:
-          auth: "{{os_auth }}"
+          auth: "{{ os_auth }}"
           name: "demo_stack"
           template: "/root/stack_template_xl_demo_redhat.yaml"
