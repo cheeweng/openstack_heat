@@ -9,5 +9,5 @@
           password: demo123
           project_name: demo
           username: demo
-          name: "{{ demo }}"
+          name: "demo_stack"
           template: "/home/heat-admin/stack_template_xl_demo_redhat.yaml"
