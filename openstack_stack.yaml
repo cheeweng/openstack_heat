@@ -10,4 +10,4 @@
             project_name: demo
             username: demo
           name: "demo_stack"
-          template: "/root/stack_template_xl_demo_redhat.yaml"
+          template: "/var/tmp/stack_template_xl_demo_redhat.yaml"
